@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>register</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/theme.css" />
+
+    <link rel="stylesheet" href="/css/home.css" />
+  </head>
+
+  <body>
+    <header class="bg-main">
+      <section class="m-liebre-top">
+        <a href="/" class="width-50"> 
+        <h1>
+          <img src="/images/logo-mercado-liebre.svg" alt="Mercado Liebre" />
+        </h1>
+      </a>
+      <form id="search-btn" class="width-50">
+        <input class="width-100" type="serach" name=search id search/>
+        <button type="submit" class="search-button"> <i class="fas fa-search"> </i> </button>
+      </form>
+    </section>
+        
+        <p class="text-center">
+          <i class="fas fa-hand-holding-usd"></i>
+          Comprá en cuotas y sin tarjeta de crédito
+        </p>
+      
+      <nav class="main-menu-bar">
+        <ul class="left-nav-bar">
+          <li><a href="">Ofertas</a></li>
+          <li><a href="">Tiendas Oficiales</a></li>
+          <li><a href="">Ayuda</a></li>
+        </ul>
+        <ul class="right-nav-bar">
+          <li>
+            <a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a>
+          </li>
+          <li>
+            <a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a>
+          </li>
+          <li>
+            <a href="">Mis Compras <i class="fas fa-shopping-basket"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="burger-menu">
+      <a href="" class="boton-menu-hamburguesa"/>  
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+    
+    <main class="parte-main-register">
+  
+  
+  <form action="" method="get" class="margin-y-16">
+    
+      <label class="hidden">Nombre y apellido:</label>
+      <input type="text" name="fullname" id="fullname" placeholder="Nombre y Apellido" class="input-box">
+    
+    
+      <label class="hidden">Nombre de usuario:</label>       <!--no debe tener espacios?? --> 
+      <input type="text" name="usuario" id="usuario" placeholder="Nombre de Usuario" class="input-box">
+    
+      <label class="hidden">E-mail:</label>
+      <input type="email" name="email" placeholder="E-mail" class="input-box">
+    
+      <label>Fecha de nacimiento:</label>     
+      <input type="date" name="fecha-nacimiento" id="fecha-nacimiento" class="input-box">
+    
+      <label class="hidden">Domicilio</label> 
+        <input type="text" name="domicilio" id="domicilio" class="input-box" placeholder="Domicilio"/>
+
+      <label>Perfil de usuario</label>
+        <div class="radio-lista">
+          
+          <input class="" type="radio" name="userProfile" id="sellerProfile" value="sellerProfile"/>
+          <label for="sellerProfile" > Vendedor</label>  
+
+          <input class="" type="radio" name="userProfile" value="buyerProfile" id="buyerProfile">
+          <label for="buyerProfile" > Comprador</label>
+        </div>
+      
+      <label>Categorias de interes </label>
+
+      <div class="checkbox-list">
+
+        <div> 
+          <input type="checkbox" name="categoriaDeInteres" value="electro"/>
+          <label for="">Electro</label>
+        </div>
+
+        <div> 
+          <input type="checkbox" name="categoriaDeInteres" value="moda">
+          <label for="">Moda</label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="categoriaDeInteres" value="hogar">
+          <label for="">Hogar</label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="categoriaDeInteres" value="jugueteria">
+          <label for="">Juguetería</label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="categoriaDeInteres" value="visaSana">
+          <label for="">Vida Sana</label>
+
+          </div>
+      </div>
+
+
+
+    <label>Contraseña:</label>
+      <input type="password" name="password" required>
+    
+
+    
+    <label>Confirmar ontraseña:</label>
+        <input type="password" name="password-2" required>
+    
+
+    
+    <!-- campo para el botón de enviar 
+            esto es viejooooooo
+    <input type="submit" value="ENVIAR"></input>  
+        ahora se usa tipo buttom
+    -->
+    <button class="button-primary send-button" type="submit">Enviar!!   <!--son por defecto submit                  --> 
+
+    </button>
+    <button class="button-grey" type="reset" > Restablecer</button>
+  </form>
+  
+</main>
+
+<!--
+
+
+  <form action="/crear-formulario" method="post">
+    <div>
+      <label>Nombre del producto </label>
+      <input type="text" name="nombre">
+    </div>
+
+    <div>
+      <label>Precio </label>
+      <input type="text" name="precio">
+    </div>
+    <div>
+      <label>Categoria</label>
+      <select name="vategoria">
+        <option value="">Hogar</option>
+        <option value="">Electro</option>
+        <option value="">Indumentaria</option>
+
+
+      </select>
+    </div>
+
+
+    <div>
+      <label>Esta en oferta </label>
+      <input type="radio" name="enOferta">
+    </div>
+
+
+  </form>
+
+  -->
+    <footer></footer>
+  </body>
+</html>
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

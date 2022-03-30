@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/theme.css" />
+
+    <link rel="stylesheet" href="/css/home.css" />
+  </head>
+
+  <body>
+    <header class="bg-main">
+      <section class="m-liebre-top">
+        <a href="/" class="width-50"> 
+        <h1>
+          <img src="/images/logo-mercado-liebre.svg" alt="Mercado Liebre" />
+        </h1>
+      </a>
+      <form id="search-btn" class="width-50">
+        <input class="width-100" type="serach" name=search id search/>
+        <button type="submit" class="search-button"> <i class="fas fa-search"> </i> </button>
+      </form>
+    </section>
+        
+        <p class="text-center">
+          <i class="fas fa-hand-holding-usd"></i>
+          Comprá en cuotas y sin tarjeta de crédito
+        </p>
+      
+      <nav class="main-menu-bar">
+        <ul class="left-nav-bar">
+          <li><a href="">Ofertas</a></li>
+          <li><a href="">Tiendas Oficiales</a></li>
+          <li><a href="">Ayuda</a></li>
+        </ul>
+        <ul class="right-nav-bar">
+          <li>
+            <a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a>
+          </li>
+          <li>
+            <a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a>
+          </li>
+          <li>
+            <a href="">Mis Compras <i class="fas fa-shopping-basket"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="burger-menu">
+      <a href="" class="boton-menu-hamburguesa"/>  
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+    
+    <main class="parte-main">
+      <form action="" method="get" class="margin-y-16">
+    
+        <label class="hidden">Nombre de usuario:</label>       <!--no debe tener espacios?? --> 
+        <input type="text" name="usuario" id="usuario" placeholder="Nombre de Usuario" class="input-box">
+      
+        
+      <label>Contraseña:</label>
+        <input type="password" name="password" required>
+      
+  
+      
+      <label>Confirmar ontraseña:</label>
+          <input type="password" name="password-2" required>
+      
+  
+      
+      <!-- campo para el botón de enviar 
+              esto es viejooooooo
+      <input type="submit" value="ENVIAR"></input>  
+          ahora se usa tipo buttom
+      -->
+      <button class="button-primary send-button" type="submit">Enviar!!   <!--son por defecto submit                  --> 
+  
+      </button>
+      <button class="button-grey" type="reset" > Restablecer</button>
+    </form>
+  </main>
+
+ 
+    <footer></footer>
+  </body>
+</html>
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

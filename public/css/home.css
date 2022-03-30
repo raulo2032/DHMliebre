@@ -1,0 +1,237 @@
+.burger-menu {
+  width: 40px;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-right: auto;
+  font-size: 24px;
+  border-radius: 5px;
+  background-color: #1259c3;
+  color: white;
+  text-align: center;
+  padding: 6px;
+  margin-top: 8px;
+}
+
+
+.description-box{
+  position: relative;
+  border-top: 1px solid #ebebeb;
+  display:flex;
+  flex-wrap: wrap;
+  padding: 15px;
+ 
+
+ 
+}
+
+.formulario{
+  padding-top: 250px;
+}
+
+
+
+.delivery-icon {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+ /* width: 30px;
+  height: 30px;*/
+  border: 1px solid #39b54a;
+  background-color: #FFF;
+  border-radius: 50%;  
+  position: absolute;
+  right: 20px;
+  top: -15px;
+  transition: transform 2500ms;
+}
+
+
+main {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+
+.product-card {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  margin-bottom: 16px;
+  
+}
+
+@media (min-width: 480px) {
+  .burger-menu{
+  display: block;
+  }
+  .main-menu-bar{
+    display: none;
+  }
+ 
+  
+}
+
+
+.margin-y-16{
+  width: 80vw;
+  padding-top: 300;
+  
+
+}
+
+.price{
+  flex-grow:0.30;
+}
+
+.discount{
+  flex-grow:0.70;
+}
+.description{
+  width: 100%;
+}
+
+.create-form{
+  padding: 20px 15px;
+}
+
+.control-formulario{
+  margin-bottom: 15px;
+}
+
+.control-formulario label{
+  margin-bottom: 5px;
+  font-style: italic;
+  display: block;
+}
+.oferta-ultima-vista{
+  font-size: 24px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.precio{
+  flex-grow: 0.3;
+  font-family: 18px;
+}
+
+.descuento{
+  flex-grow: 0.7;
+  font-family: 16px;
+}
+
+.descripcion{
+  width:100%;
+  font-family: 16px;
+}
+.control{
+   width: 80vw;
+   padding: 8px 8px;
+
+}
+
+
+
+.boton-formulario{
+  background-color: #39b54a;
+  border: none;
+  color: #FFF;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+/* Tablet + */
+@media (min-width: 480px) {
+  .burger-menu{
+  display: block;
+  }
+
+  .main-menu-bar{
+    display: none;
+  }
+
+ 
+  .product-card{
+    width: calc(50% - 16px);
+  }
+}
+
+
+
+/* Laptop + */
+@media (min-width: 768px) {
+  .product-card {
+    
+    width: calc(25% - 16px);
+  }
+
+  .product-card .descripcion {
+    display: none;
+
+  }
+  .product-card:hover .descripcion{
+    display:block;
+               
+  }
+  
+  
+
+  bg-main .text-center{
+    justify-content: space-between;
+  }
+
+  .burger-menu{
+    display: none;
+  }
+  .main-menu-bar{
+    
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .main-menu-bar ul{
+    display: flex;
+  }
+
+  .main-menu-bar li{
+    margin: 5px
+  }
+
+  .delivery-icon:hover {
+    transform: rotate(90deg);
+    
+  }
+    
+
+}
+
+
+  
+.main-menu-bar {
+  
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+ 
+}
+
+.article-container{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.m-liebre-top{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  
+}
+
+
+.width-50 {
+  width: 50%;
+  
+  
+  }
+
+  .search-button{
+    position:absolute;
+    right:0px;
+  }

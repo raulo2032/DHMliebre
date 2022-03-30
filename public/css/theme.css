@@ -1,0 +1,150 @@
+body {
+    font-family: "Roboto";
+  }
+  
+  .color-main {
+    color: #666;
+  }
+  
+  .bg-main {
+    background-color: #eac926;
+    padding: 20px;
+    
+    
+    z-index: 10;
+  }
+  
+  .bg-blue {
+    background-color: #03264c;
+  }
+  
+  .bg-light-blue {
+    background-color: #1259c3;
+  }
+  
+  .text-green {
+    background-color: #39b54a;
+  }
+
+  .fuente-green{
+    color:  #39b54a;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  
+  .width-100 {
+    width: 100%;
+    padding: 0, 15px;
+  }
+
+  .parte-main{
+    margin: 90vw;
+    margin: auto;
+    
+    padding-bottom: 10px;
+    background-color: #ebebeb;
+
+}
+
+.parte-main-register{
+  margin: 90vw;
+  margin: auto;
+  
+  padding-bottom: 10px;
+  background-color: #ebebeb;
+  border-top: 200px;
+
+}
+.bg-light-grey{
+background-color: #ebebeb;
+}
+.input-box {
+width: 100%;
+padding: 8px;
+border: none;
+border-radius: 6px;
+margin-top: 12px;
+margin-bottom:12px ;
+}
+.main-y-16 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.radio-lista{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.checkbox-list {
+  display: flex;
+  justify-content:stretch ;
+  flex-direction: column;
+  margin-left: 25px;
+  margin-right: 16px;
+}
+
+.button-primary{
+  background-color: #1259c3;
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+}
+
+.margin-y-16{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.button-grey{
+  background-color: #ebebeb;
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+}
+
+.pie-pagina{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.escudo-pie{
+text-align: center;
+}
+.regalo-pie{
+  text-align: center;
+}
+.tarjeta-pie{
+  width:100%;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.text-pie{
+  text-align: center;
+  width: 100%;
+  justify-content: space-around;
+  
+
+}
+
+h2-footer{
+  text-align: center;
+  width: 100%;
+  justify-content: space-around;
+}
+.send-button:hover{
+background-color: #0022AA;
+}
